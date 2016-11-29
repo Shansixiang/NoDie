@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/ic_launcher">
+    
+    <EditText 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_write_password"
+        android:layout_centerInParent="true"
+        android:hint="请输入4位数字密码"/>
+
+     <Button
+         android:id="@+id/zhuce"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentLeft="true"
+         android:onClick="zhece"
+         android:text="注册" />
+
+     <Button
+         android:id="@+id/login"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentRight="true"
+         android:onClick="login"
+         android:text="登陆" />
+
+</RelativeLayout>
